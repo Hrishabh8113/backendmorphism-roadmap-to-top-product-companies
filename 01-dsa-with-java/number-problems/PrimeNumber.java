@@ -18,6 +18,7 @@ public class PrimeNumber {
         //Print All Prime Numbers from 1 to n
         int range = 50;
         for(int i = 1; i<=range; i++){
+            for(int j=2 ; j*j<=i; j++)
             if(i % 2 != 0){
                 System.out.println(i);
             }
